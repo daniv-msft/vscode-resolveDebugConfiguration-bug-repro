@@ -1,0 +1,19 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "WORKING - Launch Program",
+			"program": "${workspaceFolder}/app.js",
+			"skipFiles": [
+				"<node_internals>/**"
+			]
+		},
+		{
+			"type": "my-debugger-type",
+			"request": "launch",
+			"name": "NOT WORKING - Reproduce the Bug"
+		}
+	]
+}
